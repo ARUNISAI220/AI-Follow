@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="AI-Follow/AI-Follow.vcxproj" />
+  <Project Path="AI-Follow/AI-Follow.vcxproj" Id="5f144a14-2034-4aa5-a515-58e734747d7b" />
 </Solution>

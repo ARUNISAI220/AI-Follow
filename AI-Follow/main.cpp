@@ -10,8 +10,8 @@ int main()
 	SetTargetFPS(60);
 
 	Texture2D background = LoadTexture("Graphics/background.png");
-	Button startButton{ "Graphics/start_button.png",{300,150},0.25 };
-	Button exitButton{ "Graphics/exit_button.png",{300,300},0.25 };
+	Button startButton{ "Graphics/start_button.png",{150,10},0.40 };
+	Button exitButton{ "Graphics/exit_button.png",{150,250},0.40 };
 	bool exit = false;
 
 	while (WindowShouldClose() == false && exit == false)
