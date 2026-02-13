@@ -1,7 +1,8 @@
 #include "raylib.h"
 #include <math.h>
+#include "game.h"
 
-int main(void)
+void RunGame(void)
 {
 	const int screenWidth = 800;
 	const int screenHeight = 450;
@@ -51,5 +52,5 @@ int main(void)
 		EndDrawing();
 	}
 	CloseWindow();
-	return 0;
+	//return 0;
 }
